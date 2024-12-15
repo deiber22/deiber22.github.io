@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(
+      to right top,
+      #0f0f0f,
+      #0f0f10,
+      #101011,
+      #101011,
+      #111012
+    );
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    flex: 1;
+  }
+  
+  .custom-navbar {
+    background-image: linear-gradient(
+      to right top,
+      #0f0f0f,
+      #0f0f10,
+      #101011,
+      #101011,
+      #111012
+    );
+    border-bottom: 0.5px solid #727272; /* Línea blanca delgada */
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: #fff; /* Color de texto blanco para las opciones del menú */
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+  }
+  
+  .navbar-nav .nav-item .active-link {
+    border-bottom: 2px solid #05eeff; /* Línea azul debajo de la opción activa */
+    color: #05eeff; /* Cambio de color del texto cuando está activo */
+    text-shadow: 0 1px 4px rgba(60, 128, 245, 0.7); /* Efecto de resplandor solo en la línea */
+  }
+
+  .navbar-brand .navbar-icon {
+    width: 40px; /* Ajusta el tamaño del icono */
+    height: 40px; /* Ajusta el tamaño del icono */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  
+  
+  
+
+  .custom-footer {
+    background-image: linear-gradient(
+      to right top,
+      #0f0f0f,
+      #0f0f10,
+      #101011,
+      #101011,
+      #111012
+    );
+    border-top: 0.5px solid #727272; /* Línea gris claro */
+  }
+  
