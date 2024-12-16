@@ -1,0 +1,149 @@
+/* Home.css */
+.home {
+    background: transparent; /* Fondo transparente */
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .button-group {
+    margin: 20px 0;
+  }
+  
+  .button-group button {
+    background-color: #ffffff;
+    color: #810689;
+    border: 2px solid #810689;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-group button:hover {
+    background-color: #810689;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  
+  .typing-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cursor {
+    animation: blink 0.8s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  /* Creative text style */
+  .creative-text {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 30px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  
+  .creative-text:hover {
+    opacity: 1;
+  }
+  
+  .highlight {
+    color: #05eeff; /* Highlighted text color */
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Mobile */
+  @media only screen and (max-width: 480px) {
+    .welcome-section h1 {
+      font-size: 2rem;
+    }
+  
+    .welcome-section p {
+      font-size: 1rem;
+    }
+  
+    .typing-text {
+      font-size: 1.2rem;
+    }
+  
+    .button-group button {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+      margin: 8px;
+    }
+  
+    .creative-text {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Tablet */
+  @media only screen and (max-width: 768px) {
+    .welcome-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .welcome-section p {
+      font-size: 1.1rem;
+    }
+  
+    .typing-text {
+      font-size: 1.3rem;
+    }
+  
+    .button-group button {
+      padding: 10px 15px;
+      font-size: 1rem;
+      margin: 8px;
+    }
+  
+    .creative-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 1024px) {
+    .welcome-section h1 {
+      font-size: 3.5rem;
+    }
+  
+    .welcome-section p {
+      font-size: 1.4rem;
+    }
+  
+    .typing-text {
+      font-size: 1.6rem;
+    }
+  
+    .creative-text {
+      font-size: 1.3rem;
+    }
+  }
+  

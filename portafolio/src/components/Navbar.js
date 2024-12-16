@@ -9,7 +9,7 @@ function Navbar() {
       <div className="container-fluid">
         {/* Imagen antes del texto "Portafolio" */}
         <NavLink className="navbar-brand" to="/">
-          <img src={icon} alt="Icono" className="navbar-icon" /> Portfolio
+          <img src={icon} alt="Icono" className="navbar-icon" /> Riobo
         </NavLink>
         <button
           className="navbar-toggler"
@@ -29,7 +29,7 @@ function Navbar() {
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} 
                 to="/"
               >
-                Home
+                Inicio
               </NavLink>
             </li>
             <li className="nav-item">
@@ -37,7 +37,7 @@ function Navbar() {
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} 
                 to="/about"
               >
-                About
+                Sobre Mí
               </NavLink>
             </li>
             <li className="nav-item">
@@ -45,7 +45,7 @@ function Navbar() {
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} 
                 to="/projects"
               >
-                Projects
+                Proyectos
               </NavLink>
             </li>
             <li className="nav-item">
@@ -53,7 +53,7 @@ function Navbar() {
                 className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} 
                 to="/contact"
               >
-                Contact
+                Contacto
               </NavLink>
             </li>
           </ul>
