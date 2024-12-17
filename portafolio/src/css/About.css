@@ -1,0 +1,115 @@
+.about-section {
+    padding: 50px 20px;
+    color: #333;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Introducción Personal */
+  .intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .about-image .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #810689;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Habilidades */
+  .skills-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .skills-section h2 {
+    font-size: 2rem;
+    color: #810689;
+    margin-bottom: 20px;
+  }
+  
+  .skills-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skills-logos img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skills-logos img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Proyectos */
+  .projects-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .projects-section h2 {
+    font-size: 2rem;
+    color: #810689;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin: 20px 0;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project button {
+    background-color: #810689;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project button:hover {
+    background-color: #05eeff;
+    color: #333;
+  }
+  
+  /* Educación */
+  .education-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .education-section h2 {
+    font-size: 2rem;
+    color: #810689;
+    margin-bottom: 10px;
+  }
+  
+  .education-section p {
+    font-size: 1.2rem;
+  }
+  
