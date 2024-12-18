@@ -9,6 +9,10 @@ function About() {
       <div className="intro-section">
         <div className="about-image">
           <img src={profile} alt="Deiber Riobo" className="profile-picture" />
+          <div className="intro-details">
+            <h2>Deiber Riobo</h2>
+            <h3>Ingeniero de Sistemas</h3>
+          </div>
         </div>
         <div className="about-text">
           <h1>Sobre Mí</h1>
@@ -25,59 +29,69 @@ function About() {
       <div className="skills-section">
         <h2>Mis Habilidades</h2>
         <div className="skills-logos">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-            alt="Java"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-            alt="Python"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-            alt="Spring Boot"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-            alt="Node.js"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-            alt="MySQL"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="JavaScript"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="Git"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            alt="GitHub"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg"
-            alt="Power BI"
-          />
-        </div>
-      </div>
-
-      {/* Proyectos */}
-      <div className="projects-section">
-        <h2>Proyectos Creados</h2>
-        <div className="project">
-          <h3>Proyecto 1</h3>
-          <button>Conocer más sobre mis proyectos</button>
-        </div>
-        <div className="project">
-          <h3>Proyecto 2</h3>
-          <button>Conocer más sobre mis proyectos</button>
+          <div className="skill-item" style={{ "--logo-color": "#007396" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+            />
+            <span>Java</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#3776AB" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              alt="Python"
+            />
+            <span>Python</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#6DB33F" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+            />
+            <span>Spring Boot</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#61DBFB" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+            <span>React</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#68A063" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="Node.js"
+            />
+            <span>Node.js</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#00758F" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"
+            />
+            <span>MySQL</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#F0DB4F" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <span>JavaScript</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#4479A1" }}>
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+              alt="SQL"
+            />
+            <span>SQL</span>
+          </div>
+          <div className="skill-item" style={{ "--logo-color": "#F2C811" }}>
+            <img
+              src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg"
+              alt="Power BI"
+            />
+            <span>Power BI</span>
+          </div>
         </div>
       </div>
 
